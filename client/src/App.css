@@ -12,7 +12,11 @@ body {
   justify-content: center;
   height: 100vh;
 }
-
+.form-title {
+  color: #ffffff;
+  margin-bottom: 16px;
+  text-align: center;
+}
 form {
   background: rgb(58, 58, 58);
   padding: 30px;
@@ -75,7 +79,7 @@ button:hover {
 }
 
 .custom-file-upload:hover {
-  background-color: #d2d5d9;
+  background-color: #77ffa0;
 }
 
 input[type="file"] {

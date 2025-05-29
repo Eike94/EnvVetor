@@ -36,7 +36,7 @@ app.post("/api/form", upload.single("image"), async (req, res) => {
   });
 
   await transporter.sendMail({
-    from: `"Site Formulário" <${process.env.MAIL_USER}>`,
+    from: `"SnapForm" <${process.env.MAIL_USER}>`,
     to: process.env.MAIL_USER,
     subject: "Novo formulário recebido",
     text: `Nome: ${name}\nEmail: ${email}\nMensagem: ${message}`,

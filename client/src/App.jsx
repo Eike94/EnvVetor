@@ -20,6 +20,10 @@ function App() {
 
   return (
     <form onSubmit={handleSubmit}>
+      <div className="form-title">
+        <h1>SnapForm</h1>
+        <p>Preencha os campos abaixo para entrar em contato conosco.</p>
+      </div>
       <input
         type="text"
         placeholder="Nome"
