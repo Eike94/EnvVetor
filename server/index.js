@@ -51,4 +51,4 @@ app.post("/api/form", upload.single("image"), async (req, res) => {
   res.json({ ok: true });
 });
 
-app.listen(3001, () => console.log("Servidor rodando na porta 3001"));
+app.listen(3000, () => console.log("Servidor rodando na porta 3001"));
