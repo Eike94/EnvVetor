@@ -14,7 +14,7 @@ function App() {
     data.append("message", form.message);
     data.append("image", file);
 
-    await axios.post("https://envvetor.onrender.com", data);
+    await axios.post("https://envvetor.onrender.com/api/form", data);
     alert("Enviado com sucesso!");
   };
 
